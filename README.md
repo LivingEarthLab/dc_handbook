@@ -1,6 +1,6 @@
 # UNIGE & UNEP/GRID-Geneva Data Cubes Capacity Building
 
-[![Open Data Cube](images/logo_OpenDataCube.png)](https://yg1975.github.io/Nostradamus_CB/)
+[![Open Data Cube](img/logo_OpenDataCube.png)](https://yg1975.github.io/Nostradamus_CB/)
 
 This repository contains the source of the **Data Cubes Capacity Building** handbook, a resource on Data Cubes and Earth Observation developed by the University of Geneva ([Living Earth Lab](https://www.unige.ch/envirospace/livingearth)) and [UNEP/GRID-Geneva](https://unepgrid.ch). It is part of the [Living Earth](https://livingearthhub.org) ecosystem.
 
