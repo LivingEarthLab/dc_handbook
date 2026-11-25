@@ -1,0 +1,154 @@
+project:
+  type: website
+  output-dir: docs
+ 
+
+website:
+  #title: "UNIGE and UNEP/GRID-Geneva Data Cubes capacity building"
+  
+  
+  sidebar:
+    style: "docked"
+    collapse-level: 1
+    logo: images/logo_OpenDataCube.png
+    search: true
+    contents:
+      - text: Home
+        href: index.qmd
+      - section: "Introduction to datacubes"
+        href: dc_overview.qmd
+        contents:
+          - text: What is a Data Cube?
+            href: dc_overview.qmd
+          - section: "Open Data Cube (ODC)"
+            href: odc_overview.qmd
+            contents:
+              - text: Overview
+                href: odc_overview.qmd
+              - text: Installation
+                href: dc_installation.qmd
+              # - text: Quick Start
+              #   href: dc_quickstart.qmd
+          - text: Other datacube platforms
+            href: other_datacube_platforms.qmd
+      - text: "---"
+      - section: "Nostradamus datacube"
+        href: nostradamus_datacube_overview.qmd
+        contents:
+          - text: Overview
+            href: nostradamus_datacube_overview.qmd
+          #- text: Datacube install
+           # href: nostradamus_datacube_setup.qmd
+          - text: Datacube use
+            href: nostradamus_datacube_use.qmd
+          - text: "Data sources used"
+            href: nostradamus_datacube_data_sources.qmd
+            contents:
+              - text: CLMS CLC+ Backbone
+                href: clms_clcplus.qmd
+              - text: AlphaEarth Foundations
+                href: aef_annual.qmd
+      - text: "---"
+      - section: "LandShift"
+        href: landshift_overview.qmd
+        contents:
+          - text: Overview
+            href: landshift_overview.qmd
+      - text: "---"
+      - section: "Nemesis"
+        href: nemesis_overview.qmd
+        contents:
+          - text: Overview
+            href: nemesis_overview.qmd
+    
+        
+     # - section: "Monalisa datacube"
+       # contents:
+       #   - text: Overview
+        #    href: monalisa_datacube.qmd
+        #  - text: Datacube install
+       #     href: monalisas_datacube_setup.qmd
+       #   - text: Datacube use
+        #    href: monalisa_datacube_setup.qmd
+      - text: "---"
+      - section: Tutorials
+        href: tutorials.qmd
+        contents: 
+          - text: How to install an Open Data Cube?
+            href: 1_install_odc.qmd
+          - text: How to use an Open Data Cube?
+            href: 2_use_odc.qmd
+          - text: How to index new data into a DC?
+            href: 3_new_data_into_dc.qmd
+          - text: How to retrieve data using the Python API?
+            href: 4_retrieve_data_python_api.qmd
+          #- text:
+         #   href: tutorial3.qmd    
+      - section: Workshops
+        href: workshops.qmd
+        contents: 
+          - text: Nostradamus T6.3
+            href: workshop_T6.3.qmd
+      - section: Vector datacubes
+        href: vector_dc_overview.qmd
+        contents: 
+           - text: Installation
+             href: vector_dc_installation.qmd
+      - section: Data sources
+        href: data_sources.qmd
+        contents:
+          - landsat.qmd
+          - sentinel.qmd
+          - planetary_computer.qmd
+          - text: NASADEM
+            href: nasadem.qmd
+          - text: Copernicus DEM
+            href: copernicus_dem.qmd
+          - text: ESA WorldCover
+            href: esa_worldcover.qmd
+          - text: Impact Observatory Land Cover
+            href: io_lulc.qmd
+          - text: Copernicus Land Monitoring Service
+            href: copernicus_land.qmd
+          - text: CLMS CLC+ Backbone
+            href: clms_clcplus.qmd
+          - text: AlphaEarth Foundations
+            href: aef_annual.qmd
+      - section: "Tools"
+        contents:
+          - text: Jupyter
+            href: jupyter.qmd
+          - text: LivingEarth
+            href: LivingEarth.qmd
+          - text: Cube in a box
+            href: cube-in-a-box.qmd
+     
+      - text: Publications
+        href: publications.qmd
+      - text: Acknowledgments
+        href: acknowledgments.qmd
+      - text: Glossary
+        href: glossary.qmd
+      - text: FAQ
+        href: faq.qmd
+      - text: Contact
+        href: contact.qmd
+      - text: "⬇ Download full site (PDF)"
+        href: full_site.pdf
+      
+     
+          
+     # - href: concepts.qmd
+     #   text: Concepts
+    
+        
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    include-after-body: _includes/pdf_button.html
+ 
+
+editor: visual

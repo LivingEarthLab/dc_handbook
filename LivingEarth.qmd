@@ -1,0 +1,7 @@
+---
+title: "LivingEarth"
+---
+
+LivingEarth is ...
+
+See <https://livingearthlab.github.io/le_handbook/> for more details

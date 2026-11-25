@@ -1,0 +1,27 @@
+---
+title: "Data sources"
+---
+
+## Available datasets
+
+This section documents the data sources behind the ready-to-use product definitions maintained in the official Open Data Cube [datacube-dataset-config](https://github.com/opendatacube/datacube-dataset-config/tree/main/products) repository — the default catalog available to any Open Data Cube deployment. Each data source has its own dedicated page below.
+
+![](images/Nostradamus_notebooks.png)
+
+-   [Landsat](landsat.qmd) — Collection 2 Level-2 Science Products
+
+-   [Sentinel](sentinel.qmd) — Sentinel-1 (radar) and Sentinel-2 (optical) missions
+
+-   [Planetary Computer](planetary_computer.qmd) — STAC catalog used to access several of these sources
+
+-   [NASADEM](nasadem.qmd) — global elevation model
+
+-   [Copernicus DEM](copernicus_dem.qmd) — European/global elevation model, alternative to NASADEM
+
+-   [ESA WorldCover](esa_worldcover.qmd) — global land cover at 10 m
+
+-   [Impact Observatory Land Cover](io_lulc.qmd) — annual global land use/land cover
+
+::: callout-note
+The [Nostradamus datacube](nostradamus_datacube_overview.qmd) uses most of these default products, but under different, project-specific names, and adds a couple of sources that are not part of the default catalog. See [Data sources used in the Nostradamus datacube](nostradamus_datacube_data_sources.qmd) for the mapping.
+:::

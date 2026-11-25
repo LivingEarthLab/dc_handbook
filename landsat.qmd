@@ -1,0 +1,43 @@
+---
+title: "Landsat"
+---
+
+## Landsat images
+
+Landsat is an Earth observation satellite programme that operates dedicated satellites continuously since 1972 through 9 Landsat programmes.
+
+![Credit: NASA's Scientific Visualization Studio](images/Landsat_timeline.jpg)
+
+## Landsat collections
+
+The Landsat archive of raw and processed data since 1972 is organized into 3 collections:
+
+-   **Pre-collection** (before 2016): old on-demand processing system, no longer available
+
+-   **Collection 1** (2016-2022): tiered collection management structure, ensuring that all Landsat Level-1 products provide a consistent archive of known data quality to support time-series analyses and data "stacking". No longer available
+
+-   **Collection 2** (2022-present): reprocessing of the Collection 1 archive resulting in several product improvements that harness recent advancements in data processing, algorithm development, and data access and distribution capabilities: alignment of the pixels, sensors value coherence, metadata quality, etc to have a more accurate product
+
+## Landsat levels
+
+**Each collection** organises data into **levels** **of processing**:
+
+-   **Level1 (L1)**: raw data corrected for geometry and topography
+
+-   **Level2 (L2)**: L1 images are taken as the basis, on which physical values of the atmosphere (aerosols, ozone, water vapor, …) are corrected =\> ready data for certain analyses (indices calculation, multi-temporal series, etc.) that could not be done with L1 images
+
+-   **Level3 (L3)**: analytical derived products from L2, that are automatically generated
+
+## Default Open Data Cube products
+
+The official [Open Data Cube dataset configuration repository](https://github.com/opendatacube/datacube-dataset-config/tree/main/products) provides several ready-to-use Landsat product definitions:
+
+-   **landsat_8_c2l2**: Landsat 8 Collection 2 Level-2 Science Products
+
+-   **lsX_c2l2_sr**: a generic Landsat Collection 2 Level-2 surface reflectance product, covering multiple Landsat sensor generations
+
+-   **ls_usgs_level1_scene** / **ls_usgs_sr_scene**: legacy Landsat Collection 1-style product definitions (Level-1 and surface-reflectance scenes)
+
+::: callout-note
+[Nostradamus datacube](nostradamus_datacube_overview.qmd) users: see the [Data sources used in the Nostradamus datacube](nostradamus_datacube_data_sources.qmd) page for how this default catalog was adapted (Landsat products split by sensor generation) for this project.
+:::
