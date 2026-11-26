@@ -1,5 +1,6 @@
 ---
-title: "UNIGE & UNEP/GRID-Geneva Data Cubes Capacity Building"
+title: "The Open Data Cube Handbook"
+subtitle: "Data Cubes Capacity Building material"
 ---
 
 ![](images/homepage_illustration.svg)
